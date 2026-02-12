@@ -1,0 +1,127 @@
+/*PARTIE PAGE ENTIERE*/
+*{
+    background-color: black;
+}
+/*fIN PAGE ENTIERE*/
+
+/*PARTIE HEADER*/
+h1 {
+    color: #d4af37;
+}
+
+.nav-barre-home-page {
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    border-bottom: 2px solid #d4af37;
+    position: static;
+}
+
+
+.nav-barre-home-page li {
+    color: white;
+    display: inline;
+    text-align: right;
+    padding: 0%;
+    margin-left: 20px;
+    list-style: none;
+}
+/*fIN HEADER*/
+
+/*PARTIE MAIN*/
+h2 {
+    color: #d4af37;
+    border-bottom: 1px solid ;
+}
+
+p, ul {
+    color: white;
+}
+
+/*fIN MAIN*/
+
+/*PARTIE FOOTER*/
+.footer-film-strip {
+    box-sizing: border-box;
+    height: 30px;
+    /*hauteur de la ligne*/
+    background-color: #d4af37;
+    width: 100%;
+    /*prend 100% de la largeur*/
+
+    display: flex;
+    /*sert à conternir les carrer noir à l'intérieur de la barre jaune*/
+    justify-content: center;
+    align-items: center;
+}
+
+.barre {
+    width: 100em;
+    height: 14px;
+    background: repeating-linear-gradient(
+            /*sert à répéter les couleur des carrer noir*/
+            90deg,
+            #000 0 16px,
+            #d4b000 4px 20px);
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.nav-barre-frim-th-bottom {
+    color: white;
+}
+
+.footer {
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.social-icons a {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #d4af37;
+    border-radius: 50%;
+    display: inline-flex;
+
+    justify-content: center;
+    margin: 10px;
+}
+
+.news {
+    color: white;
+    text-align: center;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter input {
+    padding: 16px;
+    width: 260px;
+    border: 2px solid #d4af37;
+    background: transparent;
+    color: white;
+}
+
+.mention-légal {
+    color: white;
+    text-align: center;
+}
+/*fIN FOOTER*/

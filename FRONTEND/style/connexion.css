@@ -1,0 +1,146 @@
+* {
+    background-color: black;
+}
+
+/*PARTIE HEADER*/
+h1 {
+    color: #d4af37;
+}
+
+.nav-barre-home-page {
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    border-bottom: 2px solid #d4af37;
+}
+
+
+
+.nav-barre-home-page li {
+    color: white;
+    display: inline;
+    text-align: right;
+    padding: 0%;
+    /*padding 0% + margin 0% + list style none : permet de supprimer les puces*/
+    margin-left: 20px;
+    list-style: none;
+
+}
+
+/*FIN HEADER*/
+
+/*PARTIE MAIN*/
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.connexion {
+    color: white;
+}
+
+p {
+    color: gray;
+}
+
+/*FIN DU MAIN*/
+
+/*PARTIE FOOTER*/
+
+.footer-film-strip {
+    box-sizing: border-box;
+    height: 30px; /*hauteur de la ligne*/
+    background-color: #d4af37; 
+    width: 100%; /*prend 100% de la largeur*/
+
+    display: flex; /*sert à conternir les carrer noir à l'intérieur de la barre jaune*/
+    justify-content: center;
+    align-items: center;
+}
+
+.strip {
+  width: 100em; 
+  height: 14px;
+  background: repeating-linear-gradient( /*sert à répéter les couleur des carrer noir*/
+    90deg,
+    #000 0 16px,
+    #d4b000 4px 20px
+  );
+}
+
+
+nav ul li {
+    display: inline;
+    /* Affiche les éléments sur une seule ligne */
+    margin-right: 20px;
+    /* Espacement entre les liens */
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* Supprime le soulignement */
+    color: white;
+}
+
+nav ul li a:hover {
+    color: white;
+    /* Couleur au survol */
+}
+
+.nav-barre-from-the-bottom {
+    color: white;
+}
+
+.footer {
+    padding: 40px;
+   text-align: center;
+    color: white;
+}
+
+.social-icons a {
+    width: 50px;
+    height: 50px;
+    border: 2px solid gold;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.news {
+    color: white;
+    text-align: center;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter input {
+    padding: 16px;
+    width: 260px;
+    border: 2px solid #d4af37;
+    background: transparent;
+    color: white;
+    outline: none;
+    
+}
+
+.mention-légal {
+    color: white;
+    text-align: center;
+    gap: 20px;
+}
+
+/*FIN FOOOTER*/

@@ -1,0 +1,29 @@
+{
+  "name": "projet-cin--d-lices",
+  "version": "1.0.0",
+  "description": "Ciné Délices\r Une plateforme de partage de recettes inspirée des films et des séries télévisées. Construit avec Svelte (frontend) + API Express REST (backend) + PostgreSQL/Sequelize. Comprend une authentification JWT via cookies httpOnly (avec prise en charge du jeton Bearer), un back-office administratif, une intégration TMDB pour les données vidéo, et la génération de recettes alimentée par IA via Mistral.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node -- watch index.js",
+    "db:create": "node migrations/01.create-table.js",
+    "db:seed": "node migrations/01.seed-table.js",
+    "d:reset": "node migrations/01.reset-table.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annabuffo/Projet-cin--d-lices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annabuffo/Projet-cin--d-lices/issues"
+  },
+  "homepage": "https://github.com/annabuffo/Projet-cin--d-lices#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "node": "^25.6.1",
+    "postgres": "^3.4.8"
+  }
+}
